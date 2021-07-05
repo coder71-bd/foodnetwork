@@ -8,7 +8,150 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>hello world</h1>
-    <img src="images/man-with-burger.png" alt="man with burger" />
+    <header>
+      <!-- LOGO -->
+      <h1 class="logo">
+        <span>F</span>
+        <span class="logo__small">O</span>
+        <span class="logo__small">O</span>
+        <span>D</span>
+        <span>L</span>
+        <span>Y</span>
+      </h1>
+
+      <!-- NAVIGATION -->
+      <nav>
+        <ul>
+          <li><a href="#welcome">Welcome</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#recipies">Recipies</a></li>
+          <li><a href="#statistics">Statistics</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <main>
+      <!-- WELCOME -->
+      <section id="welcome">
+        <div class="welcome__txt">
+          <h2>
+            <span>skip</span> the diet, just eat healthy with food network
+          </h2>
+
+          <p>
+            Imagine you don't need a diet beacuse we provide healthy and
+            delicious food for you!
+          </p>
+
+          <a href="#">order food</a>
+        </div>
+        <div class="welcome__img">
+          <img src="images/models/man-with-burger.png" alt="man with burger" />
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about">
+        <div class="about__img">
+          <img
+            src="images/models/man-eating-hotdog.png"
+            alt="man eating hotdog"
+          />
+        </div>
+
+        <div class="about__txt">
+          <h2>about me</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum
+            diam orci pretium a pharetra, feugiat cursus. Dictumst risus, sem
+            egestas odio cras adipiscing vulputate. Nisi, risus in suscipit non.
+            Non commodo volutpat, pharetra, vel.
+          </p>
+          <a href="https://github.com/coder71-bd" target="_blank">contact me</a>
+        </div>
+      </section>
+
+      <!-- RECIPIES -->
+      <section id="recipies">
+        <h2>my recipies</h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s.
+        </p>
+
+        <!-- RECIPIE ONE -->
+        <div class="recipie">
+          <img src="images/food/recipie-one.jpg" alt="reciepie one" />
+          <h3>recipie title</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+            fermentum amet faucibus sed id nisi lectus at.
+          </p>
+        </div>
+
+        <!-- RECIPIE TWO -->
+        <div class="recipie">
+          <img src="images/food/reciepie-two.jpg" alt="recipie two" />
+          <h3>recipie title</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+            fermentum amet faucibus sed id nisi lectus at.
+          </p>
+        </div>
+
+        <!-- RECIPIE THREE -->
+        <div class="recipie">
+          <img src="images/food/recipie-three.png" alt="recipie three" />
+          <h3>recipie title</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+            fermentum amet faucibus sed id nisi lectus at.
+          </p>
+        </div>
+      </section>
+
+      <!-- STATS -->
+      <section id="stats">
+        <!-- stats one -->
+        <div>
+          <h3 class="stats__number">700k</h3>
+          <p class="stats__txt">youtube subscribers</p>
+        </div>
+
+        <!-- stats two -->
+        <div>
+          <h3 class="stats__number">2.4m</h3>
+          <p class="stats__txt">instagram followers</p>
+        </div>
+
+        <!-- stats three -->
+        <div>
+          <h3 class="stats__number">100k</h3>
+          <p class="stats__txt">Dribbble Shot Likes</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <!-- contact -->
+      <form id="contact" action="#">
+        <input type="text" placeholder="name" />
+        <input type="email" placeholder="email" />
+        <input type="tel" placeholder="telephone" />
+        <textarea placeholder="message"></textarea>
+        <input type="submit" value="submit" />
+      </form>
+
+      <!-- DESCRIPTION -->
+      <div id="foot__txt">
+        <p class="foot__txt--head"><span>food</span>network</p>
+        <p class="foot__txt--description">
+          Eat healthy to live healthy. Live healthy to live happy.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
