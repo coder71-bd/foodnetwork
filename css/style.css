@@ -56,7 +56,6 @@ body {
 }
 
 /* MAIN */
-
 main section {
   margin: 4.5rem 0rem;
 }
@@ -203,3 +202,63 @@ main section {
 }
 
 /* CONTACT */
+
+#contact {
+  margin-bottom: 2em;
+}
+
+.contact__head {
+  text-align: center;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__form--child {
+  width: 100%;
+  padding: 1em;
+  max-width: 40em;
+  margin: 1em;
+  border-radius: 1em;
+  border: 3px solid rgba(6, 238, 226, 0.418);
+  outline: none;
+}
+
+.contact__form--submit {
+  width: 12em;
+  height: 3em;
+  background-image: linear-gradient(to right, #2af598, #0071b8);
+  border: none;
+  outline: none;
+  border-radius: 0.5em;
+}
+
+.contact__form--submit:hover {
+  cursor: pointer;
+  background-image: linear-gradient(to left, #2af598, #0071b8);
+}
+
+/* FOOTER TEXT */
+#foot__txt {
+  background-color: #0b0d17;
+  text-align: center;
+  padding: 2em;
+}
+
+.foot__txt--head {
+  color: #5b5b5b;
+  padding: 1.8em;
+}
+
+.foot__txt--head span {
+  color: #0071b8;
+  padding: 0 0.5em;
+}
+
+.foot__txt--des {
+  color: #fff;
+}

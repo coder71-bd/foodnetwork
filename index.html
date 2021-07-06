@@ -164,18 +164,47 @@
 
     <footer>
       <!-- contact -->
-      <form id="contact" action="#">
-        <input type="text" placeholder="name" />
-        <input type="email" placeholder="email" />
-        <input type="tel" placeholder="telephone" />
-        <textarea placeholder="message"></textarea>
-        <input type="submit" value="submit" />
-      </form>
+      <div id="contact">
+        <div class="container">
+          <div class="container__txt">
+            <h2 class="contact__head">Contact</h2>
+            <form class="contact__form" action="#">
+              <input
+                class="contact__form--child"
+                type="text"
+                placeholder="name"
+              />
+              <input
+                class="contact__form--child"
+                type="email"
+                placeholder="email"
+              />
+              <input
+                class="contact__form--child"
+                type="tel"
+                placeholder="telephone"
+              />
+              <textarea
+                class="contact__form--child"
+                placeholder="message"
+              ></textarea>
+              <input
+                class="contact__form--submit"
+                type="submit"
+                value="submit"
+              />
+            </form>
+          </div>
+          <div class="container__img">
+            <img src="images/shapes/contact.png" alt="contact photo" />
+          </div>
+        </div>
+      </div>
 
-      <!-- DESCRIPTION -->
+      <!-- FOOTER TEXT -->
       <div id="foot__txt">
         <p class="foot__txt--head"><span>food</span>network</p>
-        <p class="foot__txt--description">
+        <p class="foot__txt--des">
           Eat healthy to live healthy. Live healthy to live happy.
         </p>
       </div>
