@@ -1,3 +1,57 @@
-h1 {
-  color: blue;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font-families
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+*/
+
+body {
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER */
+.header {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-image: linear-gradient(to right, #2af598, #0071b8);
+}
+
+/* HEADER LOGO */
+.header__logo {
+  margin: 0.3em 0;
+  font-family: 'Tangerine', cursive;
+  font-size: 3rem;
+  color: rgb(30, 0, 161);
+}
+
+.logo__small {
+  font-size: 0.5em;
+}
+
+/* HEADER NAV */
+.header__nav > ul {
+  display: flex;
+  margin: 1.8em 0;
+}
+
+.header__nav > ul > li {
+  list-style-type: none;
+}
+
+.header__nav > ul > li > a {
+  padding: 0.1em 1em;
+  text-decoration: none;
+  color: #fff;
+}
+
+.header__nav > ul > li > a:hover {
+  border-bottom: 3px solid #d9ffee;
 }
