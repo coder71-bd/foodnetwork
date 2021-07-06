@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-/* font-families
-    font-family: 'Manrope', sans-serif;
-    font-family: 'Roboto', sans-serif;
-*/
-
 body {
   font-size: 1rem;
   font-family: 'Montserrat', sans-serif;
@@ -113,6 +108,10 @@ main section {
 }
 
 /* WELCOME */
+.welcome__txt--head {
+  text-transform: capitalize;
+}
+
 .welcome__txt--head span {
   color: #0071b8;
   font-size: 2.4rem;
@@ -132,6 +131,9 @@ main section {
 .about__img {
   background-image: url(/foodnetwork/images/shapes/hotdog-bg.png);
   background-position: top right;
+}
+.about__txt {
+  font-family: 'Manrope', sans-serif;
 }
 
 /* RECIPIES */
@@ -172,7 +174,7 @@ main section {
   font-weight: 800;
   margin-top: 2.5em;
   margin-bottom: 0.6em;
-  columns: #575757;
+  color: #575757;
 }
 
 .card__txt {
@@ -205,6 +207,9 @@ main section {
 
 #contact {
   margin-bottom: 2em;
+  background-image: url('/foodnetwork/images/shapes/contact-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .contact__head {
@@ -231,10 +236,13 @@ main section {
 .contact__form--submit {
   width: 12em;
   height: 3em;
+  font-size: 0.8rem;
+  font-weight: bold;
   background-image: linear-gradient(to right, #2af598, #0071b8);
   border: none;
   outline: none;
   border-radius: 0.5em;
+  color: #fff;
 }
 
 .contact__form--submit:hover {
@@ -247,6 +255,7 @@ main section {
   background-color: #0b0d17;
   text-align: center;
   padding: 2em;
+  font-family: 'Roboto', sans-serif;
 }
 
 .foot__txt--head {
