@@ -6,7 +6,6 @@
 
 /* font-families
     font-family: 'Manrope', sans-serif;
-    font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
 */
 
@@ -135,3 +134,72 @@ main section {
   background-image: url(/foodnetwork/images/shapes/hotdog-bg.png);
   background-position: top right;
 }
+
+/* RECIPIES */
+
+.recipie__txt {
+  text-align: center;
+}
+.recipie__txt--head {
+  color: #575757;
+  font-weight: bolder;
+}
+.recipie__txt--des {
+  color: #828282;
+  padding: 1.8em;
+}
+
+/* CARD */
+.card__container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  max-width: 23.5em;
+  width: 30%;
+  margin: 0 auto;
+  margin: 1em;
+  padding: 1.25em;
+  box-shadow: 0 0 30px #17dde438;
+  border-radius: 1.8em;
+}
+
+.card__img {
+  width: 100%;
+}
+
+.card__head {
+  font-weight: 800;
+  margin-top: 2.5em;
+  margin-bottom: 0.6em;
+  columns: #575757;
+}
+
+.card__txt {
+  font-size: 1.1rem;
+  color: #828282;
+}
+
+/* STATISTICS */
+
+#statistics {
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0 0 1.3rem #2af59a59;
+  padding: 2em;
+}
+
+.stats {
+  margin: 1em;
+}
+.stats__num {
+  font-weight: 900;
+  font-size: 1.6rem;
+}
+.stats__txt {
+  font-size: 0.8rem;
+  color: #828282;
+}
+
+/* CONTACT */
